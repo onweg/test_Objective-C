@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		747DB2B02BC28E8F00D450FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 747DB2AF2BC28E8F00D450FA /* main.m */; };
+		747DB2BC2BC2A42500D450FA /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 747DB2BB2BC2A42500D450FA /* Fraction.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		747DB2AC2BC28E8F00D450FA /* test Objective-C */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "test Objective-C"; sourceTree = BUILT_PRODUCTS_DIR; };
 		747DB2AF2BC28E8F00D450FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		747DB2BA2BC2A42500D450FA /* Fraction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fraction.h; sourceTree = "<group>"; };
+		747DB2BB2BC2A42500D450FA /* Fraction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fraction.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				747DB2AF2BC28E8F00D450FA /* main.m */,
+				747DB2BA2BC2A42500D450FA /* Fraction.h */,
+				747DB2BB2BC2A42500D450FA /* Fraction.m */,
 			);
 			path = "test Objective-C";
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				747DB2B02BC28E8F00D450FA /* main.m in Sources */,
+				747DB2BC2BC2A42500D450FA /* Fraction.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

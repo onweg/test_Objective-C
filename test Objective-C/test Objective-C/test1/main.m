@@ -6,14 +6,14 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Fraction.h"
-#import "RSPerson.h"
+#import "RSCarPort.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        RSPerson *object = [[RSPerson alloc] initWithName:@"Mike"];
+        RSCarPort *carPort = [RSCarPort new];
         
-        [object sayHello];
+        RSPassenger *captain = [[RSPassenger alloc] initWithName: @"Mike"];
+        
     }
     return 0;
 }

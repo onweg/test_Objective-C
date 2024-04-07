@@ -10,6 +10,10 @@
 		747DB2B02BC28E8F00D450FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 747DB2AF2BC28E8F00D450FA /* main.m */; };
 		747DB2BC2BC2A42500D450FA /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 747DB2BB2BC2A42500D450FA /* Fraction.m */; };
 		747DB2C72BC2DE2600D450FA /* RSPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 747DB2C62BC2DE2600D450FA /* RSPerson.m */; };
+		747DB2D32BC2F1A600D450FA /* RSPessenger.m in Sources */ = {isa = PBXBuildFile; fileRef = 747DB2D22BC2F1A600D450FA /* RSPessenger.m */; };
+		747DB2D72BC2F35900D450FA /* RSVehicle.m in Sources */ = {isa = PBXBuildFile; fileRef = 747DB2D62BC2F35900D450FA /* RSVehicle.m */; };
+		747DB2DE2BC2F61D00D450FA /* RSCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 747DB2DD2BC2F61D00D450FA /* RSCar.m */; };
+		747DB2E32BC2F6F200D450FA /* RSCarPort.m in Sources */ = {isa = PBXBuildFile; fileRef = 747DB2E22BC2F6F200D450FA /* RSCarPort.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,6 +36,14 @@
 		747DB2C42BC2B16A00D450FA /* numbersProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = numbersProtocol.h; sourceTree = "<group>"; };
 		747DB2C52BC2DE2600D450FA /* RSPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSPerson.h; sourceTree = "<group>"; };
 		747DB2C62BC2DE2600D450FA /* RSPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSPerson.m; sourceTree = "<group>"; };
+		747DB2D12BC2F1A600D450FA /* RSPessenger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSPessenger.h; sourceTree = "<group>"; };
+		747DB2D22BC2F1A600D450FA /* RSPessenger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSPessenger.m; sourceTree = "<group>"; };
+		747DB2D52BC2F35900D450FA /* RSVehicle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSVehicle.h; sourceTree = "<group>"; };
+		747DB2D62BC2F35900D450FA /* RSVehicle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSVehicle.m; sourceTree = "<group>"; };
+		747DB2DC2BC2F61D00D450FA /* RSCar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSCar.h; sourceTree = "<group>"; };
+		747DB2DD2BC2F61D00D450FA /* RSCar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSCar.m; sourceTree = "<group>"; };
+		747DB2E12BC2F6F200D450FA /* RSCarPort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSCarPort.h; sourceTree = "<group>"; };
+		747DB2E22BC2F6F200D450FA /* RSCarPort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSCarPort.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,14 +76,86 @@
 		747DB2AE2BC28E8F00D450FA /* test Objective-C */ = {
 			isa = PBXGroup;
 			children = (
-				747DB2AF2BC28E8F00D450FA /* main.m */,
-				747DB2C52BC2DE2600D450FA /* RSPerson.h */,
-				747DB2C62BC2DE2600D450FA /* RSPerson.m */,
-				747DB2BA2BC2A42500D450FA /* Fraction.h */,
-				747DB2BB2BC2A42500D450FA /* Fraction.m */,
-				747DB2C42BC2B16A00D450FA /* numbersProtocol.h */,
+				747DB2CC2BC2F14D00D450FA /* test2 */,
+				747DB2CB2BC2F12B00D450FA /* test1 */,
 			);
 			path = "test Objective-C";
+			sourceTree = "<group>";
+		};
+		747DB2CB2BC2F12B00D450FA /* test1 */ = {
+			isa = PBXGroup;
+			children = (
+				747DB2AF2BC28E8F00D450FA /* main.m */,
+				747DB2BB2BC2A42500D450FA /* Fraction.m */,
+				747DB2BA2BC2A42500D450FA /* Fraction.h */,
+				747DB2C62BC2DE2600D450FA /* RSPerson.m */,
+				747DB2C52BC2DE2600D450FA /* RSPerson.h */,
+				747DB2C42BC2B16A00D450FA /* numbersProtocol.h */,
+			);
+			path = test1;
+			sourceTree = "<group>";
+		};
+		747DB2CC2BC2F14D00D450FA /* test2 */ = {
+			isa = PBXGroup;
+			children = (
+				747DB2CF2BC2F17000D450FA /* model */,
+			);
+			path = test2;
+			sourceTree = "<group>";
+		};
+		747DB2CF2BC2F17000D450FA /* model */ = {
+			isa = PBXGroup;
+			children = (
+				747DB2DF2BC2F6B800D450FA /* Port */,
+				747DB2D82BC2F5C100D450FA /* Car */,
+				747DB2D42BC2F33800D450FA /* Vehicle */,
+				747DB2D02BC2F18F00D450FA /* passenger */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		747DB2D02BC2F18F00D450FA /* passenger */ = {
+			isa = PBXGroup;
+			children = (
+				747DB2D12BC2F1A600D450FA /* RSPessenger.h */,
+				747DB2D22BC2F1A600D450FA /* RSPessenger.m */,
+			);
+			path = passenger;
+			sourceTree = "<group>";
+		};
+		747DB2D42BC2F33800D450FA /* Vehicle */ = {
+			isa = PBXGroup;
+			children = (
+				747DB2D52BC2F35900D450FA /* RSVehicle.h */,
+				747DB2D62BC2F35900D450FA /* RSVehicle.m */,
+			);
+			path = Vehicle;
+			sourceTree = "<group>";
+		};
+		747DB2D82BC2F5C100D450FA /* Car */ = {
+			isa = PBXGroup;
+			children = (
+				747DB2DC2BC2F61D00D450FA /* RSCar.h */,
+				747DB2DD2BC2F61D00D450FA /* RSCar.m */,
+			);
+			path = Car;
+			sourceTree = "<group>";
+		};
+		747DB2DF2BC2F6B800D450FA /* Port */ = {
+			isa = PBXGroup;
+			children = (
+				747DB2E02BC2F6C100D450FA /* CarPort */,
+			);
+			path = Port;
+			sourceTree = "<group>";
+		};
+		747DB2E02BC2F6C100D450FA /* CarPort */ = {
+			isa = PBXGroup;
+			children = (
+				747DB2E12BC2F6F200D450FA /* RSCarPort.h */,
+				747DB2E22BC2F6F200D450FA /* RSCarPort.m */,
+			);
+			path = CarPort;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,7 +216,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				747DB2C72BC2DE2600D450FA /* RSPerson.m in Sources */,
+				747DB2D32BC2F1A600D450FA /* RSPessenger.m in Sources */,
+				747DB2E32BC2F6F200D450FA /* RSCarPort.m in Sources */,
 				747DB2B02BC28E8F00D450FA /* main.m in Sources */,
+				747DB2DE2BC2F61D00D450FA /* RSCar.m in Sources */,
+				747DB2D72BC2F35900D450FA /* RSVehicle.m in Sources */,
 				747DB2BC2BC2A42500D450FA /* Fraction.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

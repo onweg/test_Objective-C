@@ -6,9 +6,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "numbersProtocol.h"
 
-
-@interface Fraction : NSObject
+@interface Fraction : NSObject <numbersProtocol>
 
 -(void) print;
 -(void) setNumerator: (int) n;

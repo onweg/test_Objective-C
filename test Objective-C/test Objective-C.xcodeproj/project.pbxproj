@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		747DB2B02BC28E8F00D450FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 747DB2AF2BC28E8F00D450FA /* main.m */; };
 		747DB2BC2BC2A42500D450FA /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 747DB2BB2BC2A42500D450FA /* Fraction.m */; };
+		747DB2C72BC2DE2600D450FA /* RSPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 747DB2C62BC2DE2600D450FA /* RSPerson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,9 @@
 		747DB2AF2BC28E8F00D450FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		747DB2BA2BC2A42500D450FA /* Fraction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fraction.h; sourceTree = "<group>"; };
 		747DB2BB2BC2A42500D450FA /* Fraction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fraction.m; sourceTree = "<group>"; };
+		747DB2C42BC2B16A00D450FA /* numbersProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = numbersProtocol.h; sourceTree = "<group>"; };
+		747DB2C52BC2DE2600D450FA /* RSPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSPerson.h; sourceTree = "<group>"; };
+		747DB2C62BC2DE2600D450FA /* RSPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSPerson.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +65,11 @@
 			isa = PBXGroup;
 			children = (
 				747DB2AF2BC28E8F00D450FA /* main.m */,
+				747DB2C52BC2DE2600D450FA /* RSPerson.h */,
+				747DB2C62BC2DE2600D450FA /* RSPerson.m */,
 				747DB2BA2BC2A42500D450FA /* Fraction.h */,
 				747DB2BB2BC2A42500D450FA /* Fraction.m */,
+				747DB2C42BC2B16A00D450FA /* numbersProtocol.h */,
 			);
 			path = "test Objective-C";
 			sourceTree = "<group>";
@@ -124,6 +131,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				747DB2C72BC2DE2600D450FA /* RSPerson.m in Sources */,
 				747DB2B02BC28E8F00D450FA /* main.m in Sources */,
 				747DB2BC2BC2A42500D450FA /* Fraction.m in Sources */,
 			);

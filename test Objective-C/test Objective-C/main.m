@@ -7,15 +7,13 @@
 
 #import <Foundation/Foundation.h>
 #import "Fraction.h"
+#import "RSPerson.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        Fraction *myFraction;
-        myFraction = [[Fraction alloc] init];
+        RSPerson *object = [[RSPerson alloc] initWithName:@"Mike"];
         
-        [myFraction setNumerator:10];
-        [myFraction setDenominator:42];
-        [myFraction print];
+        [object sayHello];
     }
     return 0;
 }
